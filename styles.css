@@ -25,14 +25,14 @@ body {
     overflow: hidden;
 }
 
-.hero-image {
+.left-image {
     background-image: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
     background-repeat: no-repeat;
     height: 100%;
     width: 35%;
 }
 
-.logo-bar {
+.text-logo {
     margin-top: 30%;
     background: rgba(0, 0, 0, 0.5);
     height: 150px;
@@ -45,7 +45,7 @@ body {
     font-size: 3rem;
 }
 
-.logo-bar img {
+.text-logo img {
     max-height: 100%;
 }
 
@@ -111,11 +111,11 @@ form input {
     font-size: 14px;
 }
 
-.button-area {
+.btn-section {
     padding-left: 2rem;
 }
 
-.button-area a {
+.btn-section a {
     color: #596d48;
     text-decoration: none;
 }
