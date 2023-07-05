@@ -8,21 +8,88 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
 
-    <main>
-        <div class="left-container">
-            <div>
-                <h3>Odin</h3>
+    <div class="wrapper">
+        <div class="hero-image">
+            <div class="logo-bar">
+                <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+                    alt="The Odin Project logo" srcset="">
+                <h1>ODIN</h1>
             </div>
-            <img src="images/leaf.jpg" alt="leaf image">
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </main>
 
+        <main>
+            <section class="description">
+                <p>
+                    This is not a real online service! You know you need something
+                    like this in your life to help you realize your deepest
+                    dreams. <br> Sign up <em>now</em> to get started.
+                </p>
+                <p>
+                    You <em>know</em> you want to.
+                </p>
+            </section>
+
+            <form action="#">
+                <div class="form-container">
+                    <p>Let's do this!</p>
+
+                    <fieldset>
+                        <div class="form-cell">
+                            <label for="first_name">First Name</label>
+                            <input type="text" name="first_name" id="first_name">
+                        </div>
+                        <div class="form-cell">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" name="last_name">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <div class="form-cell">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="form-cell">
+                            <label for="phone">Phone Number</label>
+                            <input type="text" id="phone" name=" phone">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <div class="form-cell">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div class="form-cell">
+                            <label for="confirm_pw">Confirm Password</label>
+                            <input type="password" id="confirm_pw" name="confirm_pw">
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="button-area">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                </div>
+            </form>
+        </main>
+    </div>
 
 </body>
+
+</html>
 
 </html>
